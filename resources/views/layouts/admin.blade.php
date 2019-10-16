@@ -9,7 +9,8 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>SB Admin 2 - Dashboard</title>
+  <title>Sarana Perkereta Apiaan</title>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
   <!-- Custom fonts for this template-->
   <link href="/sb_admin2/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -17,6 +18,9 @@
 
   <!-- Custom styles for this template-->
   <link href="/sb_admin2/css/sb-admin-2.min.css" rel="stylesheet">
+  <link rel="icon" href="https://img2.pngdownload.id/20180718/ew/kisspng-rail-transport-train-station-rapid-transit-track-accident-5b4f3eb9146fd8.4805256315319200570837.jpg"  type="image/x-icon"/>
+
+  <link href="/sb_admin2/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 
 </head>
 
@@ -33,7 +37,7 @@
         <div class="sidebar-brand-icon rotate-n-15">
           <i class="fas fa-laugh-wink"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+        <div class="sidebar-brand-text mx-3"><sup>Admin</sup></div>
       </a>
 
       <!-- Divider -->
@@ -51,10 +55,43 @@
 
       <!-- Heading -->
       <div class="sidebar-heading">
-        Interface
+        Data Kereta
       </div>
 
       <!-- Nav Item - Pages Collapse Menu -->
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/tables">
+          <i class="fas fa-user-plus"></i>
+          <span>User</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/tables">
+          <i class="fas fa-users-cog"></i>
+          <span>User Role</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/tables">
+          <i class="fas fa-id-badge"></i>
+          <span>Identitas</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/tables">
+          <i class="fas fa-fw fa-chart-area"></i>
+          <span>Sarana</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/tables">
+          <i class="fas fa-fw fa-chart-area"></i>
+          <span>Klasifikasi</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/tables">
+          <i class="fas fa-fw fa-chart-area"></i>
+          <span>Kodefikasi</span></a>
+      </li>
+
+
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
           <i class="fas fa-fw fa-cog"></i>
@@ -67,65 +104,6 @@
             <a class="collapse-item" href="cards.html">Cards</a>
           </div>
         </div>
-      </li>
-
-      <!-- Nav Item - Utilities Collapse Menu -->
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
-          <i class="fas fa-fw fa-wrench"></i>
-          <span>Utilities</span>
-        </a>
-        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Custom Utilities:</h6>
-            <a class="collapse-item" href="utilities-color.html">Colors</a>
-            <a class="collapse-item" href="utilities-border.html">Borders</a>
-            <a class="collapse-item" href="utilities-animation.html">Animations</a>
-            <a class="collapse-item" href="utilities-other.html">Other</a>
-          </div>
-        </div>
-      </li>
-
-      <!-- Divider -->
-      <hr class="sidebar-divider">
-
-      <!-- Heading -->
-      <div class="sidebar-heading">
-        Addons
-      </div>
-
-      <!-- Nav Item - Pages Collapse Menu -->
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
-          <i class="fas fa-fw fa-folder"></i>
-          <span>Pages</span>
-        </a>
-        <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Login Screens:</h6>
-            <a class="collapse-item" href="login.html">Login</a>
-            <a class="collapse-item" href="register.html">Register</a>
-            <a class="collapse-item" href="forgot-password.html">Forgot Password</a>
-            <div class="collapse-divider"></div>
-            <h6 class="collapse-header">Other Pages:</h6>
-            <a class="collapse-item" href="404.html">404 Page</a>
-            <a class="collapse-item" href="blank.html">Blank Page</a>
-          </div>
-        </div>
-      </li>
-
-      <!-- Nav Item - Charts -->
-      <li class="nav-item">
-        <a class="nav-link" href="charts.html">
-          <i class="fas fa-fw fa-chart-area"></i>
-          <span>Charts</span></a>
-      </li>
-
-      <!-- Nav Item - Tables -->
-      <li class="nav-item">
-        <a class="nav-link" href="tables.html">
-          <i class="fas fa-fw fa-table"></i>
-          <span>Tables</span></a>
       </li>
 
       <!-- Divider -->
@@ -146,7 +124,7 @@
       <div id="content">
 
         <!-- Topbar -->
-        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-3 static-top shadow">
 
           <!-- Sidebar Toggle (Topbar) -->
           <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
@@ -238,7 +216,7 @@
             </li>
 
             <!-- Nav Item - Messages -->
-            <li class="nav-item dropdown no-arrow mx-1">
+            <li class="nav-item dropdown no-arrow mx-5">
               <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-envelope fa-fw"></i>
                 <!-- Counter - Messages -->
@@ -391,6 +369,14 @@
   <!-- Page level custom scripts -->
   <script src="/sb_admin2/js/demo/chart-area-demo.js"></script>
   <script src="/sb_admin2/js/demo/chart-pie-demo.js"></script>
+
+    <!-- Page level plugins -->
+  <script src="/sb_admin2/vendor/datatables/jquery.dataTables.min.js"></script>
+  <script src="/sb_admin2/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="/sb_admin2/js/demo/datatables-demo.js"></script>
+
 
 </body>
 

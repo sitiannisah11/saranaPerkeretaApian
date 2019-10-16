@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('admin.index');
 });
+
+Route::get('/tables', function () {
+    return view('admin.identitas.index');
+});
