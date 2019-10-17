@@ -71,7 +71,7 @@
           <span>User Role</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/tables">
+        <a class="nav-link" href="/identitas">
           <i class="fas fa-id-badge"></i>
           <span>Identitas</span></a>
       </li>

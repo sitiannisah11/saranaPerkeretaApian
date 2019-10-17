@@ -15,6 +15,9 @@ Route::get('/', function () {
     return view('admin.index');
 });
 
-Route::get('/tables', function () {
+Route::get('/identitas', function () {
     return view('admin.identitas.index');
+});
+Route::get('/add_identitas', function () {
+    return view('admin.identitas.add');
 });
