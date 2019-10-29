@@ -7,7 +7,7 @@
 <div class="container-fluid">
     <div class="card shadow mb-4">
         <div class="card-header">
-            <h6 class="m-0 font-weight-bold text-primary">Add Data Identitas</h6>
+            <h6 class="m-0 font-weight-bold text-primary">Add Data Sarana</h6>
         </div>
         <div class="panel-body">
             <form class="form-horizontal" role="form" action="#" method="POST" enctype="multipart/form-data">

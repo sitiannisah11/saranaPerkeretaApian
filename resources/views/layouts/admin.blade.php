@@ -21,6 +21,8 @@
   <link rel="icon" href="https://img2.pngdownload.id/20180718/ew/kisspng-rail-transport-train-station-rapid-transit-track-accident-5b4f3eb9146fd8.4805256315319200570837.jpg"  type="image/x-icon"/>
 
   <link href="/sb_admin2/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="jquery-3.4.1.min.js"></script>
 
 </head>
 
@@ -61,12 +63,12 @@
       <!-- Nav Item - Pages Collapse Menu -->
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/tables">
+        <a class="nav-link" href="#">
           <i class="fas fa-user-plus"></i>
           <span>User</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/tables">
+        <a class="nav-link" href="#">
           <i class="fas fa-users-cog"></i>
           <span>User Role</span></a>
       </li>
@@ -76,19 +78,24 @@
           <span>Identitas</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/tables">
-          <i class="fas fa-fw fa-chart-area"></i>
+        <a class="nav-link" href="/sarana">
+          <i class="fas fa-weight"></i>
           <span>Sarana</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/tables">
+        <a class="nav-link" href="/klasifikasi">
           <i class="fas fa-fw fa-chart-area"></i>
           <span>Klasifikasi</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/tables">
+        <a class="nav-link" href="/kodefikasi">
           <i class="fas fa-fw fa-chart-area"></i>
           <span>Kodefikasi</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/galeri">
+          <i class="fas fa-images"></i>
+          <span>Galeri</span></a>
       </li>
 
 
@@ -132,16 +139,7 @@
           </button>
 
           <!-- Topbar Search -->
-          <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-            <div class="input-group">
-              <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
-              <div class="input-group-append">
-                <button class="btn btn-primary" type="button">
-                  <i class="fas fa-search fa-sm"></i>
-                </button>
-              </div>
-            </div>
-          </form>
+          <h3 style="color: blue; font-family:Monaco;">Sarana Perkereta Apian</h3>
 
           <!-- Topbar Navbar -->
           <ul class="navbar-nav ml-auto">
