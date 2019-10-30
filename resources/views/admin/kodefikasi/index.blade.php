@@ -25,7 +25,12 @@
             <tr>
               <th>Id</th>
               <th>User Id</th>
+              <th>Sarana Id</th>
+              <th>Kode</th>
               <th>Nama</th>
+              <th>jumlah_gandar</th>
+              <th>jumlah_bogie</th>
+              <th>kelas</th>
               <th>Gambar</th>
               <th>Deskripsi</th>
               <th>Aksi</th>
@@ -33,10 +38,15 @@
           </thead>
             <tr>
               <td>14</td>
-              <td>Technical Author</td>
-              <td>London</td>
-              <td>London</td>
-              <td>27</td>
+              <td>1</td>
+              <td>1</td>
+              <td>12</td>
+              <td>andre</td>
+              <td>5</td>
+              <td>4</td>
+              <td>12</td>
+              <td>12.jpg</td>
+              <td>ddddd</td>
               <td>
                 <a href="/edit_identitas" class="btn btn-outline-warning">
                   <i class="far fa-edit"></i>

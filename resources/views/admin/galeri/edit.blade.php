@@ -15,21 +15,15 @@
                     
                 <br>
                     <div class="form-group">
-                        <label class="col-md-2 control-label">Klasifikasi Id</label>
+                        <label class="col-md-2 control-label">Gambar</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="judul" placeholder="Masukkan Judul Artikel">
+                            <input type="file" class="form-control" name="gambar" placeholder="Masukkan Judul Artikel">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-md-2 control-label">Tahun</label>
+                            <label class="col-md-2 control-label">Deskripsi</label>
                             <div class="col-md-10">
-                                <input type="text" class="form-control" name="pembuat" placeholder="Masukkan Pembuat Artikel">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-md-2 control-label">Nomor Urut</label>
-                                <div class="col-md-10">
-                                    <textarea class="form-control" name="isi" placeholder="Masukkan Isi Artikel"></textarea>
+                                <textarea type="text" class="form-control" name="deskripsi" placeholder="Masukkan Pembuat Artikel">></textarea>
                                 </div>
                             </div>
                             <div class="modal-footer">

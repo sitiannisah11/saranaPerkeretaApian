@@ -13,7 +13,7 @@
     <div class="card-header" style="display: flex; justify-content: space-between; align-items: center;">
       <h6 class="m-0 font-weight-bold text-primary">DataTables Sarana</h6>
       <button h class="btn btn-outline-primary">
-        <a href="/add_identitas">
+        <a href="/add_galeri">
           <i class="fas fa-plus"></i>
         </a>
       </button>
@@ -25,7 +25,7 @@
             <tr>
               <th>Id</th>
               <th>User Id</th>
-              <th>Nama</th>
+              <th>Identitas Id</th>
               <th>Gambar</th>
               <th>Deskripsi</th>
               <th>Aksi</th>
@@ -33,12 +33,12 @@
           </thead>
             <tr>
               <td>14</td>
+              <td>123</td>
               <td>Technical Author</td>
+              <td>London.jpg</td>
               <td>London</td>
-              <td>London</td>
-              <td>27</td>
               <td>
-                <a href="/edit_identitas" class="btn btn-outline-warning">
+                <a href="/edit_galeri" class="btn btn-outline-warning">
                   <i class="far fa-edit"></i>
                 </a>
                 <a href="#" class="btn btn-outline-danger">
