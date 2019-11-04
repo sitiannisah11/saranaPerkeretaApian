@@ -13,6 +13,10 @@
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
   <!-- Custom fonts for this template-->
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.6.0/css/buttons.dataTables.min.css">
+
   <link href="/sb_admin2/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
@@ -21,6 +25,7 @@
   <link rel="icon" href="https://img2.pngdownload.id/20180718/ew/kisspng-rail-transport-train-station-rapid-transit-track-accident-5b4f3eb9146fd8.4805256315319200570837.jpg"  type="image/x-icon"/>
 
   <link href="/sb_admin2/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="{{ asset('css/customDataTable.css') }}">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="jquery-3.4.1.min.js"></script>
 
@@ -349,7 +354,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div>  
 
   <!-- Bootstrap core JavaScript-->
   <script src="/sb_admin2/vendor/jquery/jquery.min.js"></script>
@@ -374,6 +379,26 @@
 
   <!-- Page level custom scripts -->
   <script src="/sb_admin2/js/demo/datatables-demo.js"></script>
+
+<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.6.0/js/dataTables.buttons.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.6.0/js/buttons.flash.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.6.0/js/buttons.html5.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.6.0/js/buttons.print.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('#Table').DataTable( {
+        dom: 'Bfrtip',
+        buttons: [
+            'copy', 'csv', 'excel', 'pdf', 'print'
+        ],
+    } );
+} );
+</script>
 
 
 </body>

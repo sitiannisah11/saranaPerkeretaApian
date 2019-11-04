@@ -20,7 +20,7 @@
     </div>
     <div class="card-body">
       <div class="table-responsive">
-        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+        <table id="Table" class="table table-bordered" width="100%" cellspacing="0">
           <thead>
             <tr>
               <th>Id</th>
@@ -34,6 +34,246 @@
             <tr>
               <td>14</td>
               <td>Technical Author</td>
+              <td>London</td>
+              <td>London</td>
+              <td>27</td>
+              <td>
+                <a href="/edit_identitas" class="btn btn-outline-warning">
+                  <i class="far fa-edit"></i>
+                </a>
+                <a href="#" class="btn btn-outline-danger">
+                  <i class="far fa-trash-alt"></i>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td>Technical Author</td>
+              <td>London</td>
+              <td>London</td>
+              <td>27</td>
+              <td>
+                <a href="/edit_identitas" class="btn btn-outline-warning">
+                  <i class="far fa-edit"></i>
+                </a>
+                <a href="#" class="btn btn-outline-danger">
+                  <i class="far fa-trash-alt"></i>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td>Technical Author</td>
+              <td>London</td>
+              <td>London</td>
+              <td>27</td>
+              <td>
+                <a href="/edit_identitas" class="btn btn-outline-warning">
+                  <i class="far fa-edit"></i>
+                </a>
+                <a href="#" class="btn btn-outline-danger">
+                  <i class="far fa-trash-alt"></i>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td>pechnical Author</td>
+              <td>London</td>
+              <td>London</td>
+              <td>27</td>
+              <td>
+                <a href="/edit_identitas" class="btn btn-outline-warning">
+                  <i class="far fa-edit"></i>
+                </a>
+                <a href="#" class="btn btn-outline-danger">
+                  <i class="far fa-trash-alt"></i>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td>oechnical Author</td>
+              <td>London</td>
+              <td>London</td>
+              <td>27</td>
+              <td>
+                <a href="/edit_identitas" class="btn btn-outline-warning">
+                  <i class="far fa-edit"></i>
+                </a>
+                <a href="#" class="btn btn-outline-danger">
+                  <i class="far fa-trash-alt"></i>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td>Technical Author</td>
+              <td>London</td>
+              <td>London</td>
+              <td>27</td>
+              <td>
+                <a href="/edit_identitas" class="btn btn-outline-warning">
+                  <i class="far fa-edit"></i>
+                </a>
+                <a href="#" class="btn btn-outline-danger">
+                  <i class="far fa-trash-alt"></i>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td>Technical Author</td>
+              <td>London</td>
+              <td>London</td>
+              <td>27</td>
+              <td>
+                <a href="/edit_identitas" class="btn btn-outline-warning">
+                  <i class="far fa-edit"></i>
+                </a>
+                <a href="#" class="btn btn-outline-danger">
+                  <i class="far fa-trash-alt"></i>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td>gechnical Author</td>
+              <td>London</td>
+              <td>London</td>
+              <td>27</td>
+              <td>
+                <a href="/edit_identitas" class="btn btn-outline-warning">
+                  <i class="far fa-edit"></i>
+                </a>
+                <a href="#" class="btn btn-outline-danger">
+                  <i class="far fa-trash-alt"></i>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td>uechnical Author</td>
+              <td>London</td>
+              <td>London</td>
+              <td>27</td>
+              <td>
+                <a href="/edit_identitas" class="btn btn-outline-warning">
+                  <i class="far fa-edit"></i>
+                </a>
+                <a href="#" class="btn btn-outline-danger">
+                  <i class="far fa-trash-alt"></i>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td>Technical Author</td>
+              <td>London</td>
+              <td>London</td>
+              <td>27</td>
+              <td>
+                <a href="/edit_identitas" class="btn btn-outline-warning">
+                  <i class="far fa-edit"></i>
+                </a>
+                <a href="#" class="btn btn-outline-danger">
+                  <i class="far fa-trash-alt"></i>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td>Technical Author</td>
+              <td>London</td>
+              <td>London</td>
+              <td>27</td>
+              <td>
+                <a href="/edit_identitas" class="btn btn-outline-warning">
+                  <i class="far fa-edit"></i>
+                </a>
+                <a href="#" class="btn btn-outline-danger">
+                  <i class="far fa-trash-alt"></i>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td>Aechnical Author</td>
+              <td>London</td>
+              <td>London</td>
+              <td>27</td>
+              <td>
+                <a href="/edit_identitas" class="btn btn-outline-warning">
+                  <i class="far fa-edit"></i>
+                </a>
+                <a href="#" class="btn btn-outline-danger">
+                  <i class="far fa-trash-alt"></i>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td>Bechnical Author</td>
+              <td>London</td>
+              <td>London</td>
+              <td>27</td>
+              <td>
+                <a href="/edit_identitas" class="btn btn-outline-warning">
+                  <i class="far fa-edit"></i>
+                </a>
+                <a href="#" class="btn btn-outline-danger">
+                  <i class="far fa-trash-alt"></i>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td>Technical Author</td>
+              <td>London</td>
+              <td>London</td>
+              <td>27</td>
+              <td>
+                <a href="/edit_identitas" class="btn btn-outline-warning">
+                  <i class="far fa-edit"></i>
+                </a>
+                <a href="#" class="btn btn-outline-danger">
+                  <i class="far fa-trash-alt"></i>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td>Gechnical Author</td>
+              <td>London</td>
+              <td>London</td>
+              <td>27</td>
+              <td>
+                <a href="/edit_identitas" class="btn btn-outline-warning">
+                  <i class="far fa-edit"></i>
+                </a>
+                <a href="#" class="btn btn-outline-danger">
+                  <i class="far fa-trash-alt"></i>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td>Technical Author</td>
+              <td>London</td>
+              <td>London</td>
+              <td>27</td>
+              <td>
+                <a href="/edit_identitas" class="btn btn-outline-warning">
+                  <i class="far fa-edit"></i>
+                </a>
+                <a href="#" class="btn btn-outline-danger">
+                  <i class="far fa-trash-alt"></i>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td>yechnical Author</td>
               <td>London</td>
               <td>London</td>
               <td>27</td>
