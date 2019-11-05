@@ -23,18 +23,26 @@
         <table class="table table-bordered" id="Table" width="100%" cellspacing="0">
           <thead>
             <tr>
-              <th>No Id</th>
+              <th>Id</th>
+              <th>User Id</th>
               <th>Klasifikasi Id</th>
               <th>Tahun</th>
               <th>Nomor Urut</th>
+              <th>Gambar</th>
+              <th>Deskripsi</th>
+              <th>Create_at</th>
               <th>Aksi</th>
             </tr>
           </thead>
             <tr>
               <td>14</td>
+              <td>3</td>
               <td>Technical Author</td>
               <td>London</td>
-              <td>27</td>
+              <td>33</td>
+              <td>dsaa</td>
+              <td>sdff</td>
+              <td>12-12-2001</td>
               <td>
                 <a href="/edit_identitas" class="btn btn-outline-warning">
                   <i class="far fa-edit"></i>

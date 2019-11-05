@@ -14,26 +14,39 @@
                     @csrf
                     
                 <br>
-                    <div class="form-group">
+                <div class="form-group">
                         <label class="col-md-2 control-label">Klasifikasi Id</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="judul" placeholder="Masukkan Judul Artikel">
+                            <input type="text" class="form-control" name="judul" placeholder="Masukkan Klasifikasi Id">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-md-2 control-label">Tahun</label>
-                            <div class="col-md-10">
-                                <input type="text" class="form-control" name="pembuat" placeholder="Masukkan Pembuat Artikel">
-                                </div>
+                        <label class="col-md-2 control-label">Tahun</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" name="judul" placeholder="Masukan Tahun">
                             </div>
-                            <div class="form-group">
-                                <label class="col-md-2 control-label">Nomor Urut</label>
-                                <div class="col-md-10">
-                                    <textarea class="form-control" name="isi" placeholder="Masukkan Isi Artikel"></textarea>
+                        </div>
+                        <div class="form-group">
+                        <label class="col-md-2 control-label">Nomor urut</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" name="judul" placeholder="Masukkan Nomor Urut">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                        <label class="col-md-2 control-label">Gambar</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" name="judul" placeholder="Masukkan Gambar">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">Deskripsi</label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" name="pembuat" placeholder="Masukkan Deskripsi">
                                 </div>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Edit</button>
+                                <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Keluar</button>
+                                <button type="submit" class="btn btn-primary waves-effect waves-light">Tambah</button>
                             </div>
                         </form>
                     </div>
